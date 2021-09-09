@@ -5,13 +5,14 @@ def capacitor_pods
   use_frameworks!
   pod 'Capacitor', :path => '../node_modules/@capacitor/ios'
   pod 'CapacitorCordova', :path => '../node_modules/@capacitor/ios'
-  pod 'HelpCrunchSDK', '~> 4.0'
 end
 
 target 'Plugin' do
+  pod 'HelpCrunchSDK', '~> 4.0'
   capacitor_pods
 end
 
 target 'PluginTests' do
+  pod 'HelpCrunchSDK', '~> 4.0'
   capacitor_pods
 end

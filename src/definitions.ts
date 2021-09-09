@@ -1,3 +1,4 @@
 export interface HelpcrunchPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  initialise(): Promise<any>;
+  show(): Promise<any>;
 }
