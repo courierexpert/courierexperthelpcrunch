@@ -15,6 +15,7 @@ npx cap sync
 
 * [`initialise()`](#initialise)
 * [`show()`](#show)
+* [`testo()`](#testo)
 
 </docgen-index>
 
@@ -36,6 +37,17 @@ initialise() => Promise<any>
 
 ```typescript
 show() => Promise<any>
+```
+
+**Returns:** <code>Promise&lt;any&gt;</code>
+
+--------------------
+
+
+### testo()
+
+```typescript
+testo() => Promise<any>
 ```
 
 **Returns:** <code>Promise&lt;any&gt;</code>
